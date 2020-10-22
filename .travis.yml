@@ -4,4 +4,4 @@ git:
   autocrlf: input # Prevents git to try to be smart with line endings
 
 script:
-  - ./gradlew check
+  - sh ./gradlew check
