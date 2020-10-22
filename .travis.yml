@@ -3,5 +3,8 @@ git:
   depth: false # Accepts false or any number representing the commit count, defaults to 50
   autocrlf: input # Prevents git to try to be smart with line endings
 
+install:
+  - true
+
 script:
   - sh ./gradlew check
